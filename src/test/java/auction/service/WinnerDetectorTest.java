@@ -1,6 +1,6 @@
 package auction.service;
 
-import auction.BidderImpl;
+import auction.model.BidderImpl;
 import auction.exception.BusinessException;
 import org.junit.Test;
 

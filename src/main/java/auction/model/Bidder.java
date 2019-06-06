@@ -1,4 +1,4 @@
-package auction;
+package auction.model;
 
 public interface Bidder {
 

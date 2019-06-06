@@ -1,7 +1,7 @@
 package auction.service;
 
 
-import auction.*;
+import auction.model.BidderImpl;
 
 import java.util.ArrayList;
 import java.util.List;

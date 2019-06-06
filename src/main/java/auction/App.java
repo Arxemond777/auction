@@ -1,5 +1,6 @@
 package auction;
 
+import auction.model.BidderImpl;
 import auction.service.BidderRoulette;
 
 import java.util.List;

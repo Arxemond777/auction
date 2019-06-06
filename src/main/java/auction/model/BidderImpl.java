@@ -1,4 +1,4 @@
-package auction;
+package auction.model;
 
 import auction.enums.WinOrDraw;
 import auction.exception.BidderNotInitialized;
@@ -61,7 +61,7 @@ public class BidderImpl implements Bidder {
     }
 
     /**
-     * {@link auction.Bidder#init(int, int)}
+     * {@link Bidder#init(int, int)}
      */
     @Override
     public void init(int quantity, int cash) {
@@ -76,7 +76,7 @@ public class BidderImpl implements Bidder {
     }
 
     /**
-     * {@link auction.Bidder#placeBid()}
+     * {@link Bidder#placeBid()}
      */
     @Override
     public int placeBid() {
@@ -94,7 +94,7 @@ public class BidderImpl implements Bidder {
     }
 
     /**
-     * {@link auction.Bidder#bids(int, int)}
+     * {@link Bidder#bids(int, int)}
      * @param own
      *            the bid of this bidder
      * @param other

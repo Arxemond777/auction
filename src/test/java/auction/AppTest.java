@@ -1,6 +1,7 @@
 package auction;
 
 import auction.exception.BusinessException;
+import auction.model.BidderImpl;
 import auction.service.BidderRoulette;
 import org.junit.Test;
 
